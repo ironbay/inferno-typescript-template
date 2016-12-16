@@ -6,12 +6,12 @@ This is a lightweight template for getting started with the awesome InfernoJS li
 
 #### Debug
 This starts a Webpack development server on `http://localhost:8080` Changes made to the source will be automatically reloaded
-```
+```bash
 npm run debug
 ```
 
 #### Build
 Builds the project to `./build`
-```
+```bash
 npm run build
 ```
