@@ -29,9 +29,9 @@ module.exports = {
 			// All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
 			{ test: /\.tsx?$/, loader: "awesome-typescript-loader" },
 			{
-	            test: /\.css$/,
-	            loader: ExtractTextPlugin.extract("style-loader", "css-loader?importLoaders=1", "postcss-loader")
-	        }
+				test: /\.css$/,
+				loader: ExtractTextPlugin.extract("style-loader", "css-loader?importLoaders=1", "postcss-loader")
+			}
 		],
 
 		preLoaders: [
