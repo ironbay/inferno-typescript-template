@@ -3,6 +3,7 @@ This is a lightweight template for getting started with the awesome InfernoJS li
 
 
 ### Usage
+This project uses Webpack for managing the build pipeline
 
 #### Debug
 This starts a Webpack development server on `http://localhost:8080` Changes made to the source will be automatically reloaded
