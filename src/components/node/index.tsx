@@ -66,6 +66,9 @@ export default class Node extends Component<IProps, IState> {
 		})
 	}
 	edit(path: Array<string>, value: any) {
+		const { onEdit } = this.props
+		if (!onEdit)
+			return
 		const next = prompt(`Edit ${path.join('.')}`, value)
 		if (!next)
 			return
@@ -74,6 +77,6 @@ export default class Node extends Component<IProps, IState> {
 			parsed = JSON.parse(next)
 		} catch (e) {
 		}
-		this.props.onEdit(path, parsed)
+		onEdit(path, parsed)
 	}
 }
