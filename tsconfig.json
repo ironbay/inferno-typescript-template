@@ -10,12 +10,13 @@
 		"sourceMap": true,
 		"lib": ["dom","es5","scripthost", "es2015.promise", "es2015.collection"]
 	},
-    "include": [
-        "src/**/*",
-		"node_modules/@types"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
-    ]
+    	"include": [
+        	"src/**/*",
+		"node_modules/@types",
+		"typings/**/*"
+    	],
+    	"exclude": [
+        	"node_modules",
+        	"**/*.spec.ts"
+    	]
 }
