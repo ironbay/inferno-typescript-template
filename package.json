@@ -1,5 +1,5 @@
 {
-  "name": "inferno-delta-template",
+  "name": "inferno-typescript-template",
   "version": "1.0.0",
   "description": "A basic example of Inferno with TypeScript",
   "main": "index.js",
@@ -16,10 +16,10 @@
   "license": "MIT",
   "dependencies": {
     "history": "^4.4.1",
-    "inferno": "^1.0.0-beta32",
-    "inferno-component": "^1.0.0-beta32",
-    "inferno-create-element": "^1.0.0-beta32",
-    "inferno-router": "^1.0.0-beta32"
+    "inferno": "1.0.0-beta35",
+    "inferno-component": "1.0.0-beta35",
+    "inferno-create-element": "1.0.0-beta35",
+    "inferno-router": "1.0.0-beta35"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.0-beta.17",
