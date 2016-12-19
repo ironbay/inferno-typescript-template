@@ -1,3 +1,4 @@
+import './reset.css'
 import './styles.css'
 import * as createElement from 'inferno-create-element'
 import * as Component from 'inferno-component'
@@ -22,9 +23,9 @@ export default class Root extends Component<IProps, any> {
 	render() {
 		const { children} = this.props
 		return (
-			<div className='root'>
+			<Container className='root'>
 				{children}
-			</div>
+			</Container>
 		)
 	}
 }
