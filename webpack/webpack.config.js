@@ -21,6 +21,7 @@ module.exports = {
     output: {
         path: output,
         filename: 'bundle.js',
+		publicPath: '/',
     },
     plugins: [],
     progress: true,
