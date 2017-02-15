@@ -1,8 +1,8 @@
 import './reset.css'
 import './styles.css'
-import * as createElement from 'inferno-create-element'
-import * as Component from 'inferno-component'
-import * as Inferno from 'inferno'
+import createElement from 'inferno-create-element'
+import Component from 'inferno-component'
+import Inferno from 'inferno'
 import Container from '../../components/container'
 
 interface IProps {

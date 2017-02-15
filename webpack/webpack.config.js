@@ -16,7 +16,7 @@ module.exports = {
         extensions : ["", ".js", ".jsx", ".ts", ".tsx"]
     },
     entry: [
-        './src/index.ts'
+        './src/index.tsx'
     ],
     output: {
         path: output,

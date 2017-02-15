@@ -1,21 +1,29 @@
 {
+	"version": "2.1.5",
 	"compileOnSave": false,
 	"compilerOptions": {
-        "module": "commonjs",
-        "noImplicitAny": false,
-        "target": "es5",
-        "moduleResolution": "node",
-        "jsx": "react",
-        "jsxFactory": "createElement",
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
 		"sourceMap": true,
-		"lib": ["dom","es5","scripthost", "es2015.promise", "es2015.collection"]
+		"lib": ["dom","es5","scripthost", "es2015.promise", "es2015.collection", "es2017.object"],
+		"types": [
+			"inferno"
+		],
+		"jsx": "react",
+        "jsxFactory": "createElement",
+		"noUnusedLocals": false,
+		"strictNullChecks": false,
+		"removeComments": false
 	},
-    	"include": [
-        	"src/**/*",
+	"include": [
+		"src",
 		"node_modules/@types"
-    	],
-    	"exclude": [
-        	"node_modules",
-        	"**/*.spec.ts"
-    	]
+	],
+	"exclude": [
+		"node_modules"
+	]
 }
+

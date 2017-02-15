@@ -1,6 +1,6 @@
 import './styles.css'
-import * as createElement from 'inferno-create-element'
-import * as Component from 'inferno-component'
+import createElement from 'inferno-create-element'
+import Component from 'inferno-component'
 
 import Node from '../../components/node'
 
