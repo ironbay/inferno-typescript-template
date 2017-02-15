@@ -1,7 +1,7 @@
-import * as createElement from 'inferno-create-element'
-import { Router, Route, Link } from 'inferno-router';
-import * as History from 'history';
-const browserHistory = History.createBrowserHistory()
+import createElement from 'inferno-create-element'
+import { Router, Route } from 'inferno-router'
+import { createBrowserHistory } from 'history'
+const browserHistory = createBrowserHistory()
 
 export const history = browserHistory
 
